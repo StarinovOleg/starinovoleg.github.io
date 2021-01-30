@@ -3,16 +3,13 @@ layout: page
 title: About
 permalink: /about/
 ---
+My name is Oleg. By profession I am a programmer, and by hobbies I am a lover of dinosaurs. 
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+In this blog, I want to pay special attention to the adaptation of scientific articles on dinosaurs, the peculiarities of laboratory work with fossils, fiction stories on the paleontological theme. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+For a long time I thought about the blog format and settled on the absolutely amazing static site generator technology jekyll [jekyllrb.com](https://jekyllrb.com/)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Jekyll -amazing technology, not to mention a great logo. 
 
+In the process of work, I got great pleasure. 
 
-[jekyll-organization]: https://github.com/jekyll

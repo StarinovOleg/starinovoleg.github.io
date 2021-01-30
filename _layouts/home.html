@@ -5,12 +5,14 @@ layout: default
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
+    
   {%- endif -%}
 
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <h2 class="post-list-heading">{{ page.list_title | default: "Welсome to the awesome DINOSAUR laboratory" }}</h2>
+    <img src="/assets/image/important.jpg" alt="head picture" style="width:50%; margin-left:25%;">
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
@@ -21,6 +23,8 @@ layout: default
             {{ post.title | escape }}
           </a>
         </h3>
+        {{ post.description | escape }}
+        <img src="{{ post.image | prepend: site.baseurl }}">
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
@@ -28,7 +32,7 @@ layout: default
       {%- endfor -%}
     </ul>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    
   {%- endif -%}
 
 </div>
